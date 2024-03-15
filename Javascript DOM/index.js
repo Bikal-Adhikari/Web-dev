@@ -17,3 +17,9 @@ document.querySelector("button").classList.toggle("invisible");
 document.querySelector("button").classList.toggle("invisible");
 
 document.querySelector("h1").classList.add("huge");
+document.querySelector("h1").textContent = "Bikal";
+
+document.querySelector("h1").innerHTML = "<em>Welcome</em>";
+
+document.querySelector("a").getAttribute("href");
+document.querySelector("a").setAttribute("href", "https://facebook.com");
